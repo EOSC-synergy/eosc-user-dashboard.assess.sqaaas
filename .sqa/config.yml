@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard git:
         commands:
-        - /usr/bin/env sh .sqa/script.lapis_curious_chinchilla.sh
-        container: qc.acc_peach_melancholy_elephant
+        - /usr/bin/env sh .sqa/script.violet_whimsical_spider.sh
+        container: qc.acc_cherry_shy_manatee
   QC.Doc:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.beige_helpful_starfish.sh
-        container: qc.doc_eggplant_mature_impala
+        - /usr/bin/env sh .sqa/script.hunter_compassionate_vulture.sh
+        container: qc.doc_walnut_savvy_butterfly
       github.com/cyfronet-fid/eosc-user-dashboard git:
         commands:
-        - /usr/bin/env sh .sqa/script.dusk_compassionate_cougar.sh
-        container: qc.doc_celadon_helpful_macaw
+        - /usr/bin/env sh .sqa/script.saffron_romantic_albatross.sh
+        container: qc.doc_prussian_careful_grasshopper
       github.com/cyfronet-fid/eosc-user-dashboard markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.copper_confident_hedgehog.sh
-        container: qc.doc_moss_bright_hummingbird
+        - /usr/bin/env sh .sqa/script.pine_sweet_skunk.sh
+        container: qc.doc_fog_frugal_marmoset
   QC.Lic:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ash_carefree_dhole.sh
-        container: qc.lic_yellow_whimsical_seal
+        - /usr/bin/env sh .sqa/script.denim_reliable_tarantula.sh
+        container: qc.lic_cardamom_amiable_finch
   QC.Sec:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.purple_rational_wombat.sh
-        container: qc.sec_cyan_grumpy_sparrow
+        - /usr/bin/env sh .sqa/script.cosmos_cautious_uakari.sh
+        container: qc.sec_pumpkin_responsible_chinchilla
   QC.Sty:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hunter_happy_tortoise.sh
-        container: qc.sty_dahlia_productive_lynx
+        - /usr/bin/env sh .sqa/script.carmine_focused_chinchilla.sh
+        container: qc.sty_teal_compassionate_caribou
       github.com/cyfronet-fid/eosc-user-dashboard hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.sunset_apprehensive_moth.sh
-        container: qc.sty_umber_timid_chinchilla
+        - /usr/bin/env sh .sqa/script.cerulean_reckless_badger.sh
+        container: qc.sty_cayenne_warm_eagle
       github.com/cyfronet-fid/eosc-user-dashboard jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ebony_nurturing_heron.sh
-        container: qc.sty_chocolate_observant_skunk
+        - /usr/bin/env sh .sqa/script.chili_artistic_flounder.sh
+        container: qc.sty_turmeric_imaginative_hamster
   QC.Uni:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.cosmos_independent_mink.sh
-        container: qc.uni_sage_meticulous_porcupine
+        - /usr/bin/env sh .sqa/script.seafoam_diplomatic_antelope.sh
+        container: qc.uni_claret_thoughtful_wasp
   QC.Ver:
     repos:
       github.com/cyfronet-fid/eosc-user-dashboard get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ceru_tactful_raccoon.sh
-        container: qc.ver_obsidian_creative_sloth
+        - /usr/bin/env sh .sqa/script.taupe_sincere_meerkat.sh
+        container: qc.ver_butter_daring_iguana
 timeout: 5400
